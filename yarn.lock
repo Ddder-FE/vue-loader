@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@ddder/template-compiler@^2.4.4-ddder.4":
+  version "2.4.4-ddder.4"
+  resolved "https://registry.yarnpkg.com/@ddder/template-compiler/-/template-compiler-2.4.4-ddder.4.tgz#f8ee5cd37a95fe7e6d2379f5affb6229f005bb16"
+  dependencies:
+    de-indent "^1.0.2"
+    he "^1.1.0"
+
+"@ddder/vue-framework@^2.4.4-ddder.4":
+  version "2.4.4-ddder.4"
+  resolved "https://registry.yarnpkg.com/@ddder/vue-framework/-/vue-framework-2.4.4-ddder.4.tgz#a6e7e33a67606c2de5e85a5977560ebbf292d61b"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/abab/download/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -4641,20 +4652,9 @@ vue-style-loader@^3.0.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.0:
-  version "2.5.2"
-  resolved "http://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.5.2.tgz#6f198ebc677b8f804315cd33b91e849315ae7177"
-  dependencies:
-    de-indent "^1.0.2"
-    he "^1.1.0"
-
 vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
-
-vue@^2.5.0:
-  version "2.5.2"
-  resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.2.tgz#fd367a87bae7535e47f9dc5c9ec3b496e5feb5a4"
 
 watchpack@^1.4.0:
   version "1.4.0"

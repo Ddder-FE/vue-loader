@@ -1,11 +1,11 @@
 {
-  "name": "vue-loader",
+  "name": "@ddder/vue-loader",
   "version": "13.6.0",
   "description": "Vue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejs/vue-loader.git"
+    "url": "git+ssh://git@github.com/Ddder-FE/vue-loader.git"
   },
   "keywords": [
     "vue",
@@ -16,12 +16,12 @@
     "index.js",
     "lib"
   ],
-  "author": "Evan You",
+  "author": "SamHwang1990",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vue-loader/issues"
+    "url": "https://github.com/Ddder-FE/vue-loader/issues"
   },
-  "homepage": "https://github.com/vuejs/vue-loader",
+  "homepage": "https://github.com/Ddder-FE/vue-loader",
   "scripts": {
     "lint": "eslint lib test",
     "lint:fix": "eslint lib test --fix",
@@ -41,6 +41,7 @@
     ]
   },
   "dependencies": {
+    "@ddder/template-compiler": "^2.4.4-ddder.4",
     "consolidate": "^0.14.0",
     "hash-sum": "^1.0.2",
     "loader-utils": "^1.1.0",
@@ -56,10 +57,11 @@
     "vue-template-es2015-compiler": "^1.6.0"
   },
   "peerDependencies": {
-    "css-loader": "*",
-    "vue-template-compiler": "^2.0.0"
+    "css-loader": "*"
   },
   "devDependencies": {
+    "@ddder/template-compiler": "^2.4.4-ddder.4",
+    "@ddder/vue-framework": "^2.4.4-ddder.4",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.6.0",
@@ -94,9 +96,12 @@
     "stylus-loader": "^3.0.1",
     "sugarss": "^1.0.0",
     "url-loader": "^0.6.2",
-    "vue": "^2.5.0",
     "vue-server-renderer": "^2.5.0",
-    "vue-template-compiler": "^2.5.0",
     "webpack": "^3.7.1"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
