@@ -1,6 +1,6 @@
 {
   "name": "@ddder/vue-loader",
-  "version": "13.6.0-ddder.2",
+  "version": "13.6.0-ddder.1",
   "description": "Vue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
@@ -41,7 +41,7 @@
     ]
   },
   "dependencies": {
-    "@ddder/template-compiler": "^2.4.4-ddder.7",
+    "@ddder/template-compiler": "^2.5.0-ddder.2",
     "consolidate": "^0.14.0",
     "hash-sum": "^1.0.2",
     "loader-utils": "^1.1.0",
@@ -58,7 +58,7 @@
   },
   "peerDependencies": {
     "css-loader": "*",
-    "@ddder/vue-framework": "^2.4.4-ddder.7"
+    "@ddder/vue-framework": "^2.5.0-ddder.2"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
